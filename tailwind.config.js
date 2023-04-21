@@ -1,4 +1,4 @@
-/**@type {import('tailwindcss').Config} */
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   mode: 'jit',
   purge: [
@@ -7,10 +7,10 @@ module.exports = {
   theme: {
       extend: {
         color:{
-          primary:"#4ade80",
-          secundary:"#0f766e",
-          acento:"#f43f5e"
-        }
+          backgroundImage: {
+            'bannerhome': "url('src/assets/images/Imagesbannerhome.png')",
+            
+          }        }
       }
   },
   variants: {},
