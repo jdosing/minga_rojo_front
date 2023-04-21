@@ -25,20 +25,24 @@ function App() {
       </nav>
     </header>
       <main className='h-96 flex justify-center items-center border-solid border-2 border-indigo-600 max-w-screen-2xl '>        
-          <div className='flex bg-gradient-to-r rounded-md from-orange-400 to-orange-600 h-[70%] w-[90%]'>
+          <div className='justify-center flex bg-gradient-to-r rounded-md from-orange-400 to-orange-600 h-[70%] w-[90%]'>
+            <div className='absolute w-[88%] flex content-center my-28 justify-between ' >
+              <img src="/src/assets/images/flechaderecha.png" alt="/" />
+              <img src="/src/assets/images/flechaizquierda.png" alt="" />
+            </div>
             <div className='flex h-[50%] w-[50%] ml-10'>
                 <div className='h-[200%] w-[160%]'>
                     <img className='h-[120%] w-[120%]  -my-5' src="/src/assets/images/imgmain1.png" alt="" />
                 </div>
                 <div className='h-h-[200%] w-[120%] ml-10 -my-5'>
-                    <img  className='h-[150%] w-[100%] ' src="/src/assets/images/imgmain2.png" alt="" />
+                    <img  className='h-[150%] w-[90%] ' src="/src/assets/images/imgmain2.png" alt="" />
                 </div>
             </div>
-            <div className='p-10 h-[50%] w-[50%] '>
-              <h3 className='font-bold text-xl'>
+            <div className='h-[60%] w-[55%] mx-10 my-10'>
+              <h3 className='font-bold text-l'>
               Shonen
               </h3>
-              <p className='text-l h-[65%] w-[65%] '>
+              <p className='text-l h-[90%] w-[80%] '>
               Is the manga that is aimed at adolescent boys. They are series with large amounts of action, in which humorous situations often occur. The camaraderie between members of a collective or a combat team stands out.
               </p>
             </div>
