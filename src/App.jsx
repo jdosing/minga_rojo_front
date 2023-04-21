@@ -32,10 +32,10 @@ function App() {
             </div>
             <div className='flex h-[50%] w-[50%] ml-10'>
                 <div className='h-[200%] w-[160%]'>
-                    <img className='h-[120%] w-[120%]  -my-5' src="/src/assets/images/imgmain1.png" alt="" />
+                    <img className='h-[120%] w-[95%]  -my-5' src="/src/assets/images/imgmain1.png" alt="" />
                 </div>
-                <div className='h-h-[200%] w-[120%] ml-10 -my-5'>
-                    <img  className='h-[150%] w-[90%] ' src="/src/assets/images/imgmain2.png" alt="" />
+                <div className='h-h-[200%] w-[130%] ml-10 -my-5'>
+                    <img  className='h-[150%] w-[100%] ' src="/src/assets/images/imgmain2.png" alt="" />
                 </div>
             </div>
             <div className='h-[60%] w-[55%] mx-10 my-10'>
@@ -48,8 +48,34 @@ function App() {
             </div>
           </div>
       </main>
-      <footer>
-
+      <footer className='max-w-screen-2xl'>
+        <div className='max-w-screen-2xl'>
+          <img className='w-[100%]' src="/src/assets/images/imgfooter.png" alt="" />
+        </div>
+        <div className='flex justify-around'>
+          <div className=''>
+            <a className='mr-2' href="">Home</a>
+            <a className='ml-2' href="">Mangas</a>
+          </div>
+          <div className='h-[10%] flex'>
+            <img src="src/assets/images/Minga.png" alt="" />
+            <img src="src/assets/images/雪.png" alt="" />
+          </div>
+          <div>
+            <div className='flex justify-between'>
+              <img src="src/assets/images/facebook-black.png" alt="" />
+              <img src="src/assets/images/twitter-black.png" alt="" />
+              <img src="src/assets/images/vimeo-black.png" alt="" />
+              <img src="src/assets/images/youtube-black.png" alt="" />
+            </div>
+            <div>
+              <img src="src/assets/images/donate.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div className='m-10 border-2 border-grey-400'>
+        
+        </div>
       </footer>
     </body>
     
