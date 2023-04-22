@@ -5,23 +5,39 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  // text-white pl-16 pt-24 
   return (
     <>
+    <body className='xsm:w-[100vw] md:w-[100vw] xh:w-[100vw] '>
+      <header className='xsm:w-[100vw] md:w-[100vw] xh:w-[100vw]'>
+        <nav>
+        <div className='xsm:w-[100vw] xsm:h-[100vh] md:w-[100vw] md:h-[70vh] md:border-solid border-2 bg-no-repeat bg-cover bg-[url(/src/assets/images/Imagesbannerhome.png)] xh:w-[100vw] xh:h-[70vh]'> 
     <body className='w-[100%]'>
       <header className=''>
       <nav className=' border-solid border-2 max-w-screen-2xl'>
           <div className='h-96 border-solid border-2 border-indigo-600 bg-no-repeat bg-cover bg-[url(/src/assets/images/Imagesbannerhome.png)]'> 
             <div className='flex justify-between mt-4'>
               <img className='pl-12' src="src/assets/images/Menu.png" alt="" />
-              <img className='pr-9' src="src/assets/images/Logo.png" alt="" />
+              <div className='flex'>
+                <img className='xsm:hidden md:pr-9' src="src/assets/images/Minga.png" alt=""/>
+              <img className='xsm:pr-7 md:pr-9' src="src/assets/images/雪.png" alt="" />
+              </div>
             </div>
-            <div className='text-white pl-16 pt-24' >
-              <h1 className='text-5xl font-bold'>For the love of manga</h1>
-              <h3 className='font-light'>Explore our varieties</h3>
-              <h5 className='font-thin'>#MingaLove❤</h5>
+            <div className='xsm:text-center xsm:my-42 xsm:text-white xsm:my-[14rem]  md:text-white md:pl-16 md:flex flex-col md:pt-28  ' >
+              <h1 className='xsm:text-white xsm:pb-2 text-5xl font-bold '>For the love of manga</h1>
+              <h3 className='xsm:text-white xsm:pb-3 font-extralight'>Explore our varieties</h3>
+              <h5 className='xsm:hidden md:font-normal'>#MingaLove❤</h5>
+              <div className='xsm:flex justify-center'>
+                <img className='xsm:w-[40vw] xsm: md:' src="/src/assets/images/botonmovil.png" alt="" />
+              </div>
+              
             </div>
           </div>      
+        </nav>
+      </header>
+      {/* <main className='xsm:w-[100vw] md:w-[100vw] '> */}
+      <main className='xsm:hidden md:h-96 flex justify-center items-center border-solid border-2 max-w-screen-2xl xh:flex xh:justify-center xh:items-center xh:border-solid xh:border-2 xh:max-w-screen-2xl '>        
+          <div className='justify-center flex bg-gradient-to-r rounded-md from-orange-400 to-orange-600 h-[80%] w-[90%]'>
       </nav>
     </header>
       <main className='h-96 flex justify-center items-center border-solid border-2 max-w-screen-2xl '>        
@@ -32,10 +48,10 @@ function App() {
             </div>
             <div className='flex h-[50%] w-[50%] ml-10'>
                 <div className='h-[200%] w-[160%]'>
-                    <img className='h-[120%] w-[95%]  -my-5' src="/src/assets/images/imgmain1.png" alt="" />
+                    <img className='md:h-[110%] md:w-[100%] xh:w-[80%]  -my-5' src="/src/assets/images/imgmain1.png" alt="" />
                 </div>
-                <div className='h-h-[200%] w-[130%] ml-10 -my-5'>
-                    <img  className='h-[150%] w-[100%] ' src="/src/assets/images/imgmain2.png" alt="" />
+                <div className='h-[140%] w-[135%] ml-10 -my-5'>
+                    <img  className='md:h-[150%] md:w-[110%] xh:w-[80%]' src="/src/assets/images/imgmain2.png" alt="" />
                 </div>
             </div>
             <div className='h-[60%] w-[55%] mx-10 my-10'>
@@ -48,7 +64,8 @@ function App() {
             </div>
           </div>
       </main>
-      <footer className='max-w-screen-2xl'>
+      {/* </main> */}
+      <footer className='xsm:hidden max-w-screen-2xl'>
         <div className='max-w-screen-2xl'>
           <img className='w-[100%]' src="/src/assets/images/imgfooter.png" alt="" />
         </div>
@@ -68,7 +85,7 @@ function App() {
               <img src="src/assets/images/vimeo-black.png" alt="" />
               <img src="src/assets/images/youtube-black.png" alt="" />
             </div>
-            <div>
+            <div className=''>
               <img src="src/assets/images/donate.png" alt="" />
             </div>
           </div>
@@ -77,12 +94,11 @@ function App() {
         
         </div>
       </footer>
-    </body>
-    
+    </body>.
     </>
   )
 }
 
 export default App
 
-{/* <img className='vg-cover' src="src/assets/images/Imagesbannerhome.png" alt="" /> */}
+

@@ -6,13 +6,19 @@ module.exports = {
   ],
   theme: {
       extend: {
+        screens: {
+          'xsm': {'min': '320px', 'max': '767px'},
+          'md': {'min': '768px', 'max': '1800px'},
+          // 'xh': {'min': '1025px', 'max': '5000px'}
+        },
         color:{
           backgroundImage: {
             'bannerhome': "url('src/assets/images/Imagesbannerhome.png')",
             
           }        }
-      }
-  },
+      
+  }
+},
   variants: {},
   plugins: []
 }
