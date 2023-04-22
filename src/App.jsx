@@ -10,9 +10,21 @@ function App() {
     <>
     <body className='w-[100%]'>
       <header className=''>
-      
+      <nav className=' border-solid border-2 max-w-screen-2xl'>
+          <div className='h-96 border-solid border-2 border-indigo-600 bg-no-repeat bg-cover bg-[url(/src/assets/images/Imagesbannerhome.png)]'> 
+            <div className='flex justify-between mt-4'>
+              <img className='pl-12' src="src/assets/images/Menu.png" alt="" />
+              <img className='pr-9' src="src/assets/images/Logo.png" alt="" />
+            </div>
+            <div className='text-white pl-16 pt-24' >
+              <h1 className='text-5xl font-bold'>For the love of manga</h1>
+              <h3 className='font-light'>Explore our varieties</h3>
+              <h5 className='font-thin'>#MingaLove❤</h5>
+            </div>
+          </div>      
+      </nav>
     </header>
-      <main>        
+      <main className='h-96 flex justify-center items-center border-solid border-2 max-w-screen-2xl '>        
           <div className='justify-center flex bg-gradient-to-r rounded-md from-orange-400 to-orange-600 h-[70%] w-[90%]'>
             <div className='absolute w-[88%] flex content-center my-28 justify-between ' >
               <img src="/src/assets/images/flechaderecha.png" alt="/" />
@@ -40,17 +52,17 @@ function App() {
         <div className='max-w-screen-2xl'>
           <img className='w-[100%]' src="/src/assets/images/imgfooter.png" alt="" />
         </div>
-        <div className='p-5 flex justify-around'>
-          <div className='p-5'>
+        <div className='flex justify-around'>
+          <div className=''>
             <a className='mr-2' href="">Home</a>
             <a className='ml-2' href="">Mangas</a>
           </div>
-          <div className='h-[10%] flex p-5'>
+          <div className='h-[10%] flex'>
             <img src="src/assets/images/Minga.png" alt="" />
             <img src="src/assets/images/雪.png" alt="" />
           </div>
           <div>
-            <div className='flex justify-between pb-7'>
+            <div className='flex justify-between'>
               <img src="src/assets/images/facebook-black.png" alt="" />
               <img src="src/assets/images/twitter-black.png" alt="" />
               <img src="src/assets/images/vimeo-black.png" alt="" />
