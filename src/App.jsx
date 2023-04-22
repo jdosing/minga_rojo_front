@@ -10,8 +10,8 @@ function App() {
     <>
     <body className='w-[100%]'>
       <header className=''>
-      <nav className=' border-solid border-2 border-indigo-600 max-w-screen-2xl'>
-          <div className='h-96 border-solid border-2 border-indigo-600 bg-no-repeat bg-cover bg-[url(/src/assets/images/Imagesbannerhome.png)]'> 
+      <nav className=' border-solid border-2 max-w-screen-2xl'>
+          <div className='h-96 border-solid border-2 bg-no-repeat bg-cover bg-[url(/src/assets/images/Imagesbannerhome.png)]'> 
             <div className='flex justify-between mt-4'>
               <img className='pl-12' src="src/assets/images/Menu.png" alt="" />
               <img className='pr-9' src="src/assets/images/Logo.png" alt="" />
@@ -24,7 +24,7 @@ function App() {
           </div>      
       </nav>
     </header>
-      <main className='h-96 flex justify-center items-center border-solid border-2 border-indigo-600 max-w-screen-2xl '>        
+      <main className='h-96 flex justify-center items-center border-solid border-2 max-w-screen-2xl '>        
           <div className='justify-center flex bg-gradient-to-r rounded-md from-orange-400 to-orange-600 h-[70%] w-[90%]'>
             <div className='absolute w-[88%] flex content-center my-28 justify-between ' >
               <img src="/src/assets/images/flechaderecha.png" alt="/" />
