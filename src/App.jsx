@@ -12,10 +12,6 @@ function App() {
       <header className='xsm:w-[100vw] md:w-[100vw] xh:w-[100vw]'>
         <nav>
         <div className='xsm:w-[100vw] xsm:h-[100vh] md:w-[100vw] md:h-[70vh] md:border-solid border-2 bg-no-repeat bg-cover bg-[url(/src/assets/images/Imagesbannerhome.png)] xh:w-[100vw] xh:h-[70vh]'> 
-    <body className='w-[100%]'>
-      <header className=''>
-      <nav className=' border-solid border-2 max-w-screen-2xl'>
-          <div className='h-96 border-solid border-2 border-indigo-600 bg-no-repeat bg-cover bg-[url(/src/assets/images/Imagesbannerhome.png)]'> 
             <div className='flex justify-between mt-4'>
               <img className='pl-12' src="src/assets/images/Menu.png" alt="" />
               <div className='flex'>
@@ -38,10 +34,6 @@ function App() {
       {/* <main className='xsm:w-[100vw] md:w-[100vw] '> */}
       <main className='xsm:hidden md:h-96 flex justify-center items-center border-solid border-2 max-w-screen-2xl xh:flex xh:justify-center xh:items-center xh:border-solid xh:border-2 xh:max-w-screen-2xl '>        
           <div className='justify-center flex bg-gradient-to-r rounded-md from-orange-400 to-orange-600 h-[80%] w-[90%]'>
-      </nav>
-    </header>
-      <main className='h-96 flex justify-center items-center border-solid border-2 max-w-screen-2xl '>        
-          <div className='justify-center flex bg-gradient-to-r rounded-md from-orange-400 to-orange-600 h-[70%] w-[90%]'>
             <div className='absolute w-[88%] flex content-center my-28 justify-between ' >
               <img src="/src/assets/images/flechaderecha.png" alt="/" />
               <img src="/src/assets/images/flechaizquierda.png" alt="" />
@@ -95,10 +87,20 @@ function App() {
         </div>
       </footer>
     </body>.
+    
     </>
   )
 }
 
+
+
+
+
+
+
+
+
+
+
 export default App
-
-
+{/* <img className='vg-cover' src="src/assets/images/Imagesbannerhome.png" alt="" /> */}
