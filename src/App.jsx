@@ -22,7 +22,10 @@ function App() {
               <img className='xsm:pr-7 md:pr-9' src="/images/雪.png" alt="" />
               </div>
             </div>
+
             <div className='xsm:text-center xsm:text-white xsm:my-[10rem]  md:text-white md: pl-10 md:flex flex-col md:pt-10  ' >
+            <div className='xsm:text-center xsm:text-white xsm:my-[10rem]  md:text-white md:pl-16 md:flex flex-col md:pt-10  ' >
+
               <h1 className='xsm:text-white xsm:pb-2 text-5xl font-bold '>For the love of manga</h1>
               <h3 className='xsm:text-white xsm:pb-3 font-extralight'>Explore our varieties</h3>
               <h5 className='xsm:hidden md:font-normal'>#MingaLove❤</h5>
