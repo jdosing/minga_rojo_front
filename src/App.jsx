@@ -10,6 +10,7 @@ function App() {
   console.log(process.env.NODE_ENV);
   // text-white pl-16 pt-24 
   return (
+    
     <>
     <div className='xsm:w-full md:w-full xh:w-full '>
       <header >
