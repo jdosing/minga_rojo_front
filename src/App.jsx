@@ -12,10 +12,12 @@ function App() {
   return (
     
     <>
+
     <div className='xsm:w-full md:w-full xh:w-full '>
       <header >
         <nav className='xsm:w-[100vw] md:w-full xh:w-full'>
         <div className='xsm:w-[100vw] xsm:h-[100vh] xh:h-[70vh] md:w-full md:h-[50vh] md:border-solid border-2 bg-no-repeat bg-cover bg-[url(/images/Imagesbannerhome.png)] xh:w-[90vw] '> 
+
             <div className='flex justify-between mt-4'>
               <img className='pl-12' src="/images/Menu.png" alt="" />
               <div className='flex'>
