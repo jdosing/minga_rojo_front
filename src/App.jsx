@@ -1,24 +1,20 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import apiUrl from '../api'
-import Footer  from './components/Footer'
-import Navbar from './components/Navbar'
-import Main from './components/Main'
+import Main from './layouts/Main'
+import Index from './components/Index'
 
 function App() {
   const [count, setCount] = useState(0)
   console.log(apiUrl)
   console.log(process.env.NODE_ENV);
-  // text-white pl-16 pt-24 
+ 
   return (
-    
-    <>
-    <Navbar/>
-    <Main/>
-    <Footer/>
-    </>
+    <Main>
+      <Index/>
+    </Main>
+
   )
 }
 export default App
