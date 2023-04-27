@@ -6,7 +6,7 @@ import apiUrl from "../../api";
 export default function Main() {
   useEffect(
     ()=>{axios(apiUrl+'categories').then(res=>setCategories(res.data.categories)).catch(err=>console.log(err))},
-    []
+    [] // como se usa y que pasa si no se coloca
   )
     let [categories, setCategories]= useState([])
     console.log(categories);
@@ -29,7 +29,7 @@ export default function Main() {
     }
   }
 
-  let currentColor = categories[counter]?.color
+  
   return (
     <>
 
